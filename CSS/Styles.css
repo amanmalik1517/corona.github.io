@@ -1,0 +1,265 @@
+/* h1{color: whitesmoke;
+   background-color: black;
+   font-style: italic;
+   text-align: center;} */
+   * {
+      box-sizing: border-box;
+    }
+   #h1{
+      color: black;
+      background-color: transparent;
+      border-style:inset;
+     
+      border-color: blue;
+      border-width: 10px 1px 1px 10px;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      /* font-family: Arial, Helvetica, sans-serif; */
+      /* font-style: normal;
+      font-weight: 700px; */
+      font-variant: small-caps;
+      font-size: 2.5em;  
+      
+   }
+   
+   h2{
+      text-align: center;
+      border-style: solid;
+      border-width: 0px 0px 0px 10px;
+      background-color: lightgrey;
+      border-color: rgb(0, 0, 0
+      );
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 30px;
+      margin: 50px 0px 0px  00px;
+
+   }
+   body{
+      background-color:hsla(0, 100%, 50%, 0.8);
+      background-image: url(/image/Screenshot_2020-03-01-02-31-19-068_com.instagram.android.png);
+      font-family: Arial, Helvetica, sans-serif;
+   }
+   /* div{
+      background-color: khaki;
+   } */
+   /* p{
+      background-color: lawngreen;
+      font-size: 30px;
+   } */
+   /* a:link{
+     
+      font-size: 25px;
+     color: red;
+     text-decoration: none;
+    
+    
+   }
+a:hover{
+   background-color: red;
+   color: black;
+   text-decoration: black;
+}
+a:active{
+   background-color: transparent;
+   color: hsla(0, 100%, 50%, 0.8);
+   font-style: italic;
+   
+} */
+a:link, a:visited{
+background-color: rgb(6, 216, 128);
+color: white;
+padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+a:hover, a:active{
+   background-color: teal;
+}
+   
+   
+
+#heading{
+         background-color: transparent;
+         font-style: normal;
+         border: 5px black solid;
+         padding: 20px 250px 0px 0px;
+         width: 30%;
+         height: 50px;
+         max-width: 1280px;
+         min-width: 200px;
+        
+
+}
+
+#para{
+  text-align: justify;
+  font-size: 30px;
+  background-color: lightblue;
+  /* margin: 0px 25px; */
+}
+h3{
+   border: 2px solid green;
+   outline: indigo 2px dotted;
+   outline-offset: 5px;
+   vertical-align: middle;
+   text-indent: 50px;
+   /* text-shadow: rgb(13, 16, 184); */
+   letter-spacing: 10px;
+   word-spacing: 50px;
+   line-height: auto;
+   white-space: inherit;
+   text-shadow: 0px 0px 5px blue;
+  
+}
+#demo{
+   background-color: transparent;
+   font-variant: small-caps;
+   font-size: 1.5em;
+   
+}
+/* ul.a{
+   list-style-type: circle;
+   list-style-position: outside;
+}
+ul.b{
+   list-style-type: square;
+   background-color: #ff9999;
+   padding: 20px;
+   /* margin-right: 755px; */
+   /* list-style-position: outside;
+} */ 
+ol.c {
+   list-style-type: upper-roman;
+ }
+ 
+ ol.d {
+   list-style-type: upper-alpha;
+ }
+                            /* Styling List With Colors */
+ ol {
+   background: #ff9999;
+   padding: 20px;
+ }
+ 
+ ul {
+   background: #3399ff;
+   padding: 20px;
+ }
+ 
+ ol li {
+   background: #ffe5e5;
+   padding: 5px;
+   margin-left: 35px;
+ }
+ 
+ ul li {
+   background: #cce5ff;
+   margin: 5px;
+   color: blue;
+ }
+ table, th, td {
+   /* border: 1px solid black; */
+   text-align: left;
+ }
+ table{
+    border-collapse: collapse;
+    /* width: 50%; */
+ }
+ th{
+    height: 50px;
+    /* border-width: 10px; */
+    background-color: #4CAF50;
+    color: white;
+ }
+ td{
+    vertical-align: top;
+    height: 45px;
+ }
+ th,td{
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+ }
+ tr:hover{
+    background-color: rgb(131, 165, 128);
+ }
+ /* tr:nth-child(odd){
+    background-color: blue;
+ } */
+
+ #width{
+    border: 5px solid green;
+    /* max-width: 500px; */
+   min-width: 500px;
+   }
+#static{
+   position: relative;
+   width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+#absolute{
+   position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+/* #abs{
+   position: absolute;
+   left: 0;
+   top: 900;
+   z-index: +1;
+} */
+/* img{
+   position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  z-index: -1; */
+/* } */
+#overflow{
+   width: 600px;
+   height: 200px;
+   font-size: 30px;
+  background-color: #eee;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+#clear::after{
+   clear:none; 
+    overflow: auto;
+   z-index: -1;
+   content: "";
+  clear: both;
+  display: table;
+   
+}
+.clearfix::after{
+   font-size: 50px;
+   content: "";
+   clear: both;
+   display: flex;
+   flex-wrap: nowrap;
+
+  
+}
+.box{
+   height: 300px;
+   width: 33.33%;
+   float: left;
+   padding: 50px;
+}
+span{
+   display: inline; 
+   width: 100px;
+   height: 100px;
+   padding: 5px;
+   border: 1px solid blue;
+   background-color: yellow;
+}
